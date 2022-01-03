@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>4.2 co</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            max-width: 650px;
+            margin: 5px auto;
+            border: 1px solid black;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 10px;
+            /* border: 1px solid black; */
+        }
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .logo {
+            display: inline-block;
+            width: 30px;
+            height: 20px;
+            font-weight: bold;
+            padding: 0;
+            margin: 0;
+        }
+
+        .logo-text {
+            display: inline-block;
+            height: 10px;
+            font-weight: bold;
+            padding: 0;
+            margin: 0;
+        }
+
+        .text {
+            padding: 0;
+            margin: 0;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .ikon {
+            width: 15px;
+            height: 15px;
+            cursor: pointer;
+        }
+
+        .bg-lightgray {
+            background-color: greenyellow;
+        }
+
+        .summary .row {
+            background-color: greenyellow;
+        }
+
+        .summary .row [class*="col-"] {
+            padding: 3px;
+        }
+
+        .row [class*="col-"] h4 {
+            padding: 3px;
+            margin: 0px;
+        }
+
+        .row [class*="col-"] p {
+            padding: 3px;
+            margin: 0px;
+        }
+
+        .subs {
+            border: 1px solid black;
+            width: 64%;
+            margin: 0px;
+            padding: 0px;
+            float: left;
+        }
+
+        .subs-button {
+            background-color: #000000;
+            width: 36%;
+            color: white;
+            border: 1px solid black;
+            margin: 0px;
+            padding: 0px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row bg-lightgray">
+        <div class="col-3">
+            
+            <p class="logo-text"> ShopKu </p>
+        </div>
+        <div class="col-6">
+            <a href="#">Category 1</a>|
+            <a href="#">Category 2</a>|
+            <a href="#">Category 3</a>
+        </div>
+        <div class="col-3 text-right">
+            <img src="icons8-search-50.png" alt="" class="ikon" />
+            <img src="icons8-shopping-cart-24.png" alt="" class="ikon" />
+            <b>Cart (1)</b>
+        </div>
+    </div>
+    <div class="row" style="border-bottom: 1px solid black;">
+        <div class="col-8">
+            <div class="row" style="border-bottom: 2px solid white;">
+                
+                <div class="col-9">
+                    <p class="text">No. order: <b>0.21</b></p>
+                    <p class="text">Thank you, Jen!<hr></strong></p>
+                </div>
+            
+            </div>
+            <div class="row" style="border-bottom: 2px solid white;">
+                <div class="col-12">
+                    <p>Your order is confirmed.</p>
+                    <p>We've accepted your order and we're getting it ready</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h4>Customer Information</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h4>Shipping Address</h4>
+                    Jen I<br />
+                    <a href="">
+                        1 Ross Road<br />
+                        NY City 001<br />
+                        United States
+                    </a>
+                    <br />
+                    <br />
+                    <hr>
+                    <h4>Shipping Method</h4>
+                    UPS Ground (Estimated ship <br />
+                    time of 3-6 days)
+                </div>
+                <div class="col-6">
+                    <h4>Billing Address</h4>
+                    Jen I<br />
+                    <a href="">
+                        1 Ross Road<br />
+                        NY City 001<br />
+                        United States
+                    </a>
+                    <br />
+                    <br />
+                    <hr>
+                    <h4>Payment Method</h4>
+                    <li style= "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><i class="fa fa-cc-visa">Ending in $125.00</i></li>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 summary">
+            <div class="row">
+                <div class="col-12">
+                    <h4>Summary (1 item)</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">Subtotal</div>
+                <div class="col-4">$50.00</div>
+            </div>
+            <div class="row">
+                <div class="col-8">Shipping</div>
+                <div class="col-4">$2.20</div>
+            </div>
+            <div class="row" style="border-bottom: 1px solid white">
+                <div class="col-8">Taxes</div>
+                <div class="col-4">$1.40</div>
+            </div>
+            <div class="row">
+                <div class="col-12">Gift Card or Discount Code</div>
+            </div>
+            <div class="row">
+                <div class="col-8"><input type="text" name="" id="" style="width: 100%;"></div>
+                <div class="col-4"><input type="submit" value="apply"></div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <h4>Total</h4>
+                </div>
+                <div class="col-4">
+                    <h4>$53.60</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <p class="logo-text"> ShopKu </p>
+            <br>
+            <br>
+        </div>
+        <div class="col-5">
+            <a href="#">Category 1</a>|
+            <a href="#">Category 2</a>|
+            <a href="#">Category 3</a>
+        </div>
+        <div class="col-4">
+            <p><b>Stay in touch join our newsletter</p>
+            <input type="text" class="subs" />
+            <button class="subs-button">
+                Subscribe
+            </button></b>
+        </div>
+    </div>
+</body>
+
+</html>

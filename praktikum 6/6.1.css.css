@@ -1,0 +1,35 @@
+.container{
+    width: 1300px;
+    display: flex;
+    margin: 3em auto;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.container div{
+    width: 252px;
+    height: 190px;
+    margin: 0px;
+}
+.container div.gambar1, div.gamabar2, div.gambar3{
+    width: 400px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border: 0px solid black;
+}
+
+    
+   
+
+

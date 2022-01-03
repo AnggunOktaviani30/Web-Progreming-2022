@@ -1,0 +1,62 @@
+.abc{
+    float: left;
+    width : 146px;
+    height : 80px;
+    background-color: rgb(245, 233, 62);
+    margin-top: 18px;
+    margin-left: 40px ;
+    margin-right: 10px;
+    border-style: solid;
+}
+.def{
+    float: left;
+    width : 976px;
+    height : 80px;
+    background-color: rgb(252, 113, 21);
+    margin-top: 18px;
+    margin-left: 10px ;
+    margin-right: 10px;
+    border-style: solid;
+}
+.ghi{
+    float: left;
+    width : 146px;
+    height : 500px;
+    background-color: rgb(88, 238, 113);
+    margin-top: 18px;
+    margin-left: 40px ;
+    margin-right: 12px;
+    border-style: solid;
+}
+.jkl{
+    float: left;
+    width : 800px;
+    height : 500px;
+    background-color: rgb(163, 175, 172);
+    margin-top: 18px;
+    margin-left: 10px ;
+    margin-right: 10px;
+    border-style: solid;
+}
+.mno{
+    float: left;
+    width : 146px;
+    height : 500px;
+    background-color: rgb(72, 220, 247);
+    margin-top: 18px;
+    margin-left: 12px ;
+    margin-right: 8px;
+    border-style: solid;
+}
+
+.slw{
+    float: left;
+    width : 1145px;
+    height : 70px;
+    background-color: rgb(8, 82, 167);
+    margin-top: 18px;
+    margin-left: 40px ;
+    margin-right: 10px;
+    border-style: solid;
+    margin-bottom: 18px;
+}

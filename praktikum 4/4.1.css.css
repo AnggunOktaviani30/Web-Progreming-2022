@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    color: blue; font-weight: bold;
+    font-style: oblique;
+}
+div {
+    font-style: oblique;
+    color: black;
+}
+.container {
+    width: 365px;
+    height: 195px;
+    border: 1px solid black;
+    margin: 3px;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div {
+    width: 165px;
+    height: 85px;
+    float: left;
+    background-color: rgb(0, 110, 255);
+    margin: 2px;
+}
+.abc {
+    display: inline;
+    float:left; margin-left:20px;
+    font-size : 17px;
+}
+.abcc {
+    width: 98%;
+    background-color: lightsteelblue;
+}
+.efg {
+    display: inline;
+    float:right;
+    margin-right:50px;
+    font-size: 17px;
+    text-align:right;
+}
+.ghi {
+    float: left;
+    margin-left:50px;
+}
+.jkl {
+    font-size: 17px;
+    margin-right: 50px;
+}
+.opq {
+    width: 300px;
+    float: left;
+    margin-left: 150px;
+}
+.rst {
+    width: 300px;
+    float: left;
+    
+    
+}
+.uvw {
+    width: 300px;
+    float: left;
+    
+}
+

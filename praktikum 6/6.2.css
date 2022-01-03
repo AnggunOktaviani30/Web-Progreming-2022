@@ -1,0 +1,31 @@
+.abc{
+    float: right;
+    width : 1013px;
+    height : 251px;
+    background-color: rgb(228, 47, 47);
+}
+.def{
+    float: left;
+    width : 24%;
+    height : 702px;
+    background-color: rgb(223, 76, 125);
+}
+.ghj{
+    float: left;
+    width : 56%;
+    height : 200px;
+    background-color: rgb(13, 230, 175);
+}
+.klm{
+    float: left;
+    width : 20%;
+    height : 200px;
+    background-color: rgb(26, 156, 243);
+}
+.nop{
+    float: right;
+    width : 1013px;
+    height : 251px;
+    background-color: rgb(131, 47, 228);
+}
+  
